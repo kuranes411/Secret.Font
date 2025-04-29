@@ -1,0 +1,32 @@
+body {
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#userInput {
+    font-size: 24px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#glyphDisplay {
+    font-size: 60px;
+    transition: color 1s ease;
+}
+
+.faded {
+    color: #111;
+}
